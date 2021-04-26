@@ -76,5 +76,14 @@
             </plugin>
         </plugins>
     </build>
+	<distributionManagement>
+	
+	<snapshotRepository>
+	<id>depolyment</id>
+        <name>snap</name>
+        <url>http://34.72.219.209:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+	
+	</distributionManagement>
 
 </project>
